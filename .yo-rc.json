@@ -1,0 +1,54 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.revelles.monolith",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.9.1",
+    "applicationType": "monolith",
+    "baseName": "reactmonolith",
+    "packageName": "com.revelles.monolith",
+    "packageFolder": "com/revelles/monolith",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZTQxNDA5ZWJjY2UwYjIzNjU5NjNhNzBhNjFjNzY3M2Y5ZjUyN2Q3ZDJmOTM2NGFhYzY4ODgyZmY4NTNjZmE0M2QyYTEyODI3YTA0MjQ4MWQ1Y2MwMDYwYzk4OGRjNTc3MmFjMDFjMjI5YzgxMzRlOTdhNzVlZDhlODkxZWJhM2Y=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "cosmo",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1593351569996,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.8.1"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-kotlin",
+        "version": "1.8.1"
+      }
+    ],
+    "lastLiquibaseTimestamp": 1593428769000
+  }
+}
